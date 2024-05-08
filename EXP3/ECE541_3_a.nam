@@ -1,0 +1,40 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0xffffffff -c 31 -a 1
+A -t * -h 1 -m 2147483647 -s 0
+n -t * -a 4 -s 4 -S UP -v circle -c black -i black
+n -t * -a 0 -s 0 -S UP -v circle -c black -i black
+n -t * -a 5 -s 5 -S UP -v circle -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+n -t * -a 6 -s 6 -S UP -v circle -c black -i black
+n -t * -a 2 -s 2 -S UP -v circle -c black -i black
+n -t * -a 3 -s 3 -S UP -v circle -c black -i black
+l -t * -s 0 -d 6 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 1 -d 6 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 2 -d 6 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 3 -d 6 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 4 -d 6 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 5 -d 6 -S UP -r 1000000 -D 0.01 -c black
++ -t 0 -s 0 -d 6 -p poisson -e 500 -c 0 -i 0 -a 0 -x {0.0 6.0 0 ------- null}
+- -t 0 -s 0 -d 6 -p poisson -e 500 -c 0 -i 0 -a 0 -x {0.0 6.0 0 ------- null}
+h -t 0 -s 0 -d 6 -p poisson -e 500 -c 0 -i 0 -a 0 -x {0.0 6.0 -1 ------- null}
+r -t 0.014 -s 0 -d 6 -p poisson -e 500 -c 0 -i 0 -a 0 -x {0.0 6.0 0 ------- null}
++ -t 10 -s 1 -d 6 -p poisson -e 500 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ------- null}
+- -t 10 -s 1 -d 6 -p poisson -e 500 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ------- null}
+h -t 10 -s 1 -d 6 -p poisson -e 500 -c 0 -i 1 -a 0 -x {1.0 6.0 -1 ------- null}
+r -t 10.014 -s 1 -d 6 -p poisson -e 500 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ------- null}
++ -t 20 -s 2 -d 6 -p poisson -e 500 -c 0 -i 2 -a 0 -x {2.0 6.0 0 ------- null}
+- -t 20 -s 2 -d 6 -p poisson -e 500 -c 0 -i 2 -a 0 -x {2.0 6.0 0 ------- null}
+h -t 20 -s 2 -d 6 -p poisson -e 500 -c 0 -i 2 -a 0 -x {2.0 6.0 -1 ------- null}
+r -t 20.014 -s 2 -d 6 -p poisson -e 500 -c 0 -i 2 -a 0 -x {2.0 6.0 0 ------- null}
++ -t 30 -s 3 -d 6 -p poisson -e 500 -c 0 -i 3 -a 0 -x {3.0 6.0 0 ------- null}
+- -t 30 -s 3 -d 6 -p poisson -e 500 -c 0 -i 3 -a 0 -x {3.0 6.0 0 ------- null}
+h -t 30 -s 3 -d 6 -p poisson -e 500 -c 0 -i 3 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 30.014 -s 3 -d 6 -p poisson -e 500 -c 0 -i 3 -a 0 -x {3.0 6.0 0 ------- null}
++ -t 40 -s 4 -d 6 -p poisson -e 500 -c 0 -i 4 -a 0 -x {4.0 6.0 0 ------- null}
+- -t 40 -s 4 -d 6 -p poisson -e 500 -c 0 -i 4 -a 0 -x {4.0 6.0 0 ------- null}
+h -t 40 -s 4 -d 6 -p poisson -e 500 -c 0 -i 4 -a 0 -x {4.0 6.0 -1 ------- null}
+r -t 40.014 -s 4 -d 6 -p poisson -e 500 -c 0 -i 4 -a 0 -x {4.0 6.0 0 ------- null}
++ -t 50 -s 5 -d 6 -p poisson -e 500 -c 0 -i 5 -a 0 -x {5.0 6.0 0 ------- null}
+- -t 50 -s 5 -d 6 -p poisson -e 500 -c 0 -i 5 -a 0 -x {5.0 6.0 0 ------- null}
+h -t 50 -s 5 -d 6 -p poisson -e 500 -c 0 -i 5 -a 0 -x {5.0 6.0 -1 ------- null}
+r -t 50.014 -s 5 -d 6 -p poisson -e 500 -c 0 -i 5 -a 0 -x {5.0 6.0 0 ------- null}
